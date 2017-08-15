@@ -11,7 +11,7 @@ ms.assetid: 452ad236-7a15-4f19-8ea7-df528052a3ad
 ms.service: sql-database
 ms.custom: mvc,develop apps
 ms.workload: drivers
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: n
 ms.devlang: python
 ms.topic: hero-article
 ms.date: 08/08/2017
@@ -19,9 +19,9 @@ ms.author: carlrab
 ---
 # Use Python to query an Azure SQL database
 
- This quick start demonstrates how to use [Python](https://python.org) to connect to an Azure SQL database and use Transact-SQL statements to query data.
+ This quick start demonstrates how to use [Python 3](https://python.org) to connect to an Azure SQL database and use Transact-SQL statements to query data.
 
-## Prerequisites
+ ## Prerequisites
 
 To complete this quick start tutorial, make sure you have the following:
 
@@ -33,11 +33,11 @@ To complete this quick start tutorial, make sure you have the following:
 
 - A [server-level firewall rule](sql-database-get-started-portal.md#create-a-server-level-firewall-rule) for the public IP address of the computer you use for this quick start tutorial.
 
-- You have installed Python and related software for your operating system.
+- You have installed Python 3 and related software for your operating system.
 
-    - **MacOS**: Install Homebrew and Python, install the ODBC driver and SQLCMD, and then install the Python Driver for SQL Server. See [Steps 1.2, 1.3, and 2.1](https://www.microsoft.com/sql-server/developer-get-started/python/mac/).
-    - **Ubuntu**:  Install Python and other required packages, and then install the Python Driver for SQL Server. See [Steps 1.2, 1.3, and 2.1](https://www.microsoft.com/sql-server/developer-get-started/python/ubuntu/).
-    - **Windows**: Install the newest version of Python (environment variable is now configured for you), install the ODBC driver and SQLCMD, and then install the Python Driver for SQL Server. See [Step 1.2, 1.3, and 2.1](https://www.microsoft.com/sql-server/developer-get-started/python/windows/). 
+    - **MacOS**: Install Homebrew and Python 3, install the ODBC driver and SQLCMD, and then install the Python Driver for SQL Server. See [Steps 1.2, 1.3, and 2.1](https://www.microsoft.com/sql-server/developer-get-started/python/mac/).
+    - **Ubuntu**:  Install Python 3 and other required packages, and then install the Python Driver for SQL Server. See [Steps 1.2, 1.3, and 2.1](https://www.microsoft.com/sql-server/developer-get-started/python/ubuntu/).
+    - **Windows**: Install the newest version of Python 3 (environment variable is now configured for you), install the ODBC driver and SQLCMD, and then install the Python Driver for SQL Server. See [Step 1.2, 1.3, and 2.1](https://www.microsoft.com/sql-server/developer-get-started/python/windows/). 
 
 ## SQL server connection information
 
